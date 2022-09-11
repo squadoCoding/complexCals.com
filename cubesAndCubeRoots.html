@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/utils.css" />
+    <link rel="stylesheet" href="/css/conpCalPages.css" />
+    <title>Calculate cubes and cube roots | complexCal.com</title>
+  </head>
+  <body>
+    <main>
+      <h1>Choose what operations do you want to perform</h1>
+      <section id="sectionInput">
+        <input
+          type="text"
+          class="inp"
+          id="inputMain"
+          placeholder="Enter your question here"
+        />
+      </section>
+      <section id="result">
+        <div class="resTxt resElm">Your result will appear here</div>
+        <div class="resCal resElm"></div>
+      </section>
+      <section id="options">
+        <button class="btnCal" id="calCube" onclick="putCube()">
+          Calculate cube
+        </button>
+        <button class="btnCal" id="calCube" onclick="putIsPerfectCube()">
+          is perfect cube?
+        </button>
+      </section>
+    </main>
+  </body>
+  <script src="/js/utils.js"></script>
+  <script src="/js/cubesAndCubeRoots.js"></script>
+</html>
