@@ -1,5 +1,10 @@
 h1 {
   margin: 20px;
+  color: var(--colorPrimary);
+}
+
+h2 {
+  margin: 20px;
 }
 
 .inp {

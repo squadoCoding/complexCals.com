@@ -6,33 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/utils.css" />
     <link rel="stylesheet" href="/css/compCalPages.css" />
-    <title>Calculate cubes and cube roots | complexCal.com</title>
+    <link rel="stylesheet" href="/css/percentage.css" />
+    <title>Complex calculations(cube,cube root,etc.) | complexCal.com</title>
   </head>
   <body>
     <main>
       <h1>Choose what operations do you want to perform</h1>
       <section id="sectionInput">
-        <input
-          type="text"
-          class="inp"
-          id="inputMain"
-          placeholder="Enter your question here"
-        />
+        <input type="text" class="inp" placeholder="Enter both the numbers saperated by space here" id="inputMain"/>
       </section>
       <section id="result">
         <div class="resTxt resElm">Your result will appear here</div>
         <div class="resCal resElm"></div>
       </section>
       <section id="options">
-        <button class="btnCal" id="calCube" onclick="putCube()">
-          Calculate cube
+        <button class="btnCal" id="px" onclick="putCube()">
+          What is first number percent of secondNumber?
         </button>
-        <button class="btnCal" id="calCube" onclick="putIsPerfectCube()">
-          is perfect cube?
+        <button class="btnCal" id="xy" onclick="putIsPerfectCube()">
+          first number is what percent of second number?
         </button>
       </section>
     </main>
+    </main>
+    <script src="/js/utils.js"></script>
+    <script src="/js/percentage.js"></script>
   </body>
-  <script src="/js/utils.js"></script>
-  <script src="/js/cubesAndCubeRoots.js"></script>
 </html>

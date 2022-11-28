@@ -34,7 +34,7 @@ const getPrimeFactors = (num) => {
   return [primeFactors, remainNums];
 };
 
-const getPrimeFactorSTable = (primeFactors, remainNums) => {
+const getPrimeFactorsTable = (primeFactors, remainNums) => {
   let returnValue = `<table class="lHTable">\n`;
   for (let i = 0; i < primeFactors.length; i++) {
     returnValue =
@@ -46,4 +46,12 @@ const getPrimeFactorSTable = (primeFactors, remainNums) => {
     `<tr>\n<td></td><td>${remainNums[remainNums.length - 1]}</td></tr>`;
   returnValue = returnValue + `</table>`;
   return returnValue;
+};
+
+const percentage = (choices, totalNum, Percentage, num) => {
+  if (choices == "px") {
+    return (totalNum / 100) * Percentage;
+  } else if (choices == "xy") {
+    return (num / totalNum) * 100;
+  }
 };
