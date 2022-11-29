@@ -17,6 +17,7 @@
 h1,
 h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--colorPrimary);
 }
 
 h1 {
