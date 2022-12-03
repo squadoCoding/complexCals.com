@@ -9,7 +9,7 @@ section {
   margin-top: 30px;
 }
 
-.containing {
+.link {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@ a {
 }
 
 @media screen and (max-width: 746px) {
-  .containing {
+  .link {
     width: 100%;
   }
 }
